@@ -15,7 +15,7 @@ public abstract class WheeledTransport implements Serviceable {
     public int getWheelsCount() {
         return wheelsCount;
     }
-    public void updateTyre() {
+    private void updateTyre() {
         System.out.println("Меняем покрышку");
     }
 
